@@ -1,0 +1,14 @@
+git init 在本地仓库的目录下执行此命令
+
+
+git add +文件
+如果是第一次会提醒你run两个命令，来认证
+git commit -m "....."
+git remote add origin  https://github.com/xxfbbb7777/androidCode.git(这是仓库的地址)
+git push -u master 提交到这个分支上
+
+
+
+
+//拉代码解决冲突
+ git pull --rebase origin master
